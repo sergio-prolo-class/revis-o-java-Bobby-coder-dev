@@ -6,7 +6,7 @@ public class Exercicio_2 {
         int peso1 = 2;
         int peso2 = 3;
 
-        double cf1 = ((nota1 * peso1) + (nota2 * peso2))/(peso1 + peso2) * 0.9;
+        double cf1 = ((nota1 * peso1) + (nota2 * peso2))/ (double)(peso1 + peso2) * 0.9;
         double cf2 = partcipacao * 0.1;
         double cf = cf1 + cf2;
 
